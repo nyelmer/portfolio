@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+}
+
+path {
+    fill: white;
+}
+
+.icon-inside {
+    fill: #2d3748;
+}
+
+#card:hover svg .icon-inside {
+    fill: white;
+}
+
+#card:hover svg .icon-outline {
+    fill: #2d3748;
+}
+
+#card:hover div h4 {
+    color: #2d3748;
+}
