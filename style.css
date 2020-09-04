@@ -8,7 +8,7 @@ body {
     font-family: "IBM Plex Mono", monospace;
 }
 
-path {
+path, g {
     fill: white;
 }
 
